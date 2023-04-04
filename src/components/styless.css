@@ -1,0 +1,40 @@
+.translate-left{
+    position: relative;
+    animation-name: example1;
+    animation-duration: 300s;
+    animation-delay: 1s;
+}
+
+@keyframes example1 {
+    0% { left:0px;}
+    1% {left:-120px;}
+}
+
+
+.translate-right{
+    position: relative;
+    animation-name: example2;
+    animation-duration: 300s;
+    animation-delay: 1s;
+}
+
+@keyframes example2 {
+    0% { right:0px;}
+    1% {right:-120px;}
+}
+
+.show-up{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -30%;
+    opacity:0;
+    animation-delay: 1s;
+    animation-duration: 300s;
+    animation-name: example3;
+    z-index: 5;
+}
+@keyframes example3 {
+    0% {opacity: 0;}
+    3% {opacity: 1;}
+}

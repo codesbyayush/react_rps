@@ -4,7 +4,7 @@ import Header from "./components/Header.jsx";
 import StartGame from "./components/StartGame.jsx";
 import Selected from "./components/Selected.jsx";
 
-import { Link, Route, Routes } from "react-router-dom";
+import {Route, Routes } from "react-router-dom";
 import HelpPortal from "./components/HelpPortal";
 import { useState } from "react";
 
